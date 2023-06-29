@@ -1,0 +1,168 @@
+#title {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-align: center;
+	color: black;
+	font-size: 100px;
+	animation: Slide2 3s;
+}
+
+body {
+	background: url("back.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+#ex {
+	text-align: center;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: black;
+	font-weight: bolder;
+	font-size: 50px;
+	width: 1000px;
+	align-items: center;
+	margin: 450px;
+	margin-top: 100px;
+	animation: Slide 3s;
+}
+
+#cestquoi {
+	text-align: left;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: black;
+	font-size: 30px;
+	transition: all linear 0.2s;
+	animation: Slide 3s;
+}
+
+#cestquoi:hover {
+	color: white;
+}
+
+#cestquoi:link {
+	color: black;
+	text-decoration: none;
+
+}
+
+ul {
+	list-style-type: none;
+	text-align: left;
+	font-family: Arial;
+}
+
+#download {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: white;
+	background-color: black;
+	border-radius: 20px;
+	text-align: center;
+	width: 500px;
+	align-items: center;
+	margin: 720px;
+	margin-top: 1px;
+	height: 120px;
+	font-weight: bolder;
+	font-size: 50px;
+	transition: all linear 0.2s;
+	margin-top: -200px;
+	animation: floating ease-in-out 5s infinite;
+	text-decoration: none;
+}
+
+#emojie {
+	margin: 800px;
+	height: 20px;
+	
+}
+
+#download:link {
+	text-decoration: none;
+	color: black;
+}
+
+#download:hover {
+	color: black;
+	background-color: white;
+	box-shadow: 20px black;
+
+}
+
+#pdc {
+	text-align: left;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: black;
+	font-size: 30px;
+	transition: all linear 0.2s;
+	animation: Slide 3s;
+
+}
+
+#pdc:hover {
+	color: white;
+}
+
+#pdc:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+
+@keyframes Slide {
+	from {
+		transform: translateX(20px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+
+@keyframes Slide2 {
+	from {
+		transform: translateY(20px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes floating {
+	0%{
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(-20px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+@media screen and (max-width: 913px )  {
+	#ex {
+		margin: 100px; 
+        width: 750px;
+        height: 500px;
+	}
+}
+
+@media screen and (max-width: 416px )  {
+	#ex {
+		width: 400px;
+    	height: 400px;
+    	margin: 10px;
+	}
+}
+
+
+

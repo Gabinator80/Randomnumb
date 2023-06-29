@@ -1,0 +1,79 @@
+#title {
+    animation: Slide1 3s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-align: center;
+	color: black;
+	font-size: 100px;
+}
+
+body {
+    background: url(back.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ex {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: Slide2 3s;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#acc {
+    text-align: left;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: black;
+	font-size: 30px;
+	transition: all linear 0.2s;
+	animation: Slide1 3s;
+    
+}
+
+#pdc {
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size: 30px;
+    transition: all linear 0.2s;
+    animation: Slide2 3s;
+}
+
+#pdc:hover {
+    color: white;
+}
+
+#acc:hover {
+    color: white;
+}
+
+@keyframes Slide1 {
+    from {
+        transform: translateX(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes Slide2 {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}

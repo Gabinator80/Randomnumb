@@ -34,6 +34,7 @@ body {
 	font-size: 30px;
 	transition: all linear 0.2s;
 	animation: Slide 3s;
+	display: inline-block ;
 }
 
 #cestquoi:hover {
@@ -96,6 +97,7 @@ ul {
 	font-size: 30px;
 	transition: all linear 0.2s;
 	animation: Slide 3s;
+	display: inline-block ; 
 
 }
 

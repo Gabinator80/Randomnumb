@@ -18,7 +18,8 @@ body {
 	color: black;
 	font-size: 30px;
 	transition: all linear 0.2s;
-    animation: Slide2 3s;
+    	animation: Slide2 3s;
+	display: inline-block ; 
 }
 
 
@@ -28,7 +29,8 @@ body {
 	color: black;
 	font-size: 30px;
 	transition: all linear 0.2s;
-    animation: Slide2 3s;
+    	animation: Slide2 3s;
+	display: inline-block ; 
 }
 
 #acc:hover {
